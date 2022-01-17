@@ -46,7 +46,7 @@
   },
   "dependencies": {
     "bn.js": "^4.11.9",
-    "brorand": "^1.1.0",
+    "@martintsan/brorand": "^1.1.0",
     "hash.js": "^1.0.0",
     "hmac-drbg": "^1.0.1",
     "inherits": "^2.0.4",
