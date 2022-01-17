@@ -5,7 +5,7 @@ var elliptic = exports;
 
 elliptic.version = require('../package.json').version;
 elliptic.utils = require('./elliptic/utils');
-elliptic.rand = require('brorand');
+elliptic.rand = require('@martintsan/brorand');
 elliptic.curve = require('./elliptic/curve');
 elliptic.curves = require('./elliptic/curves');
 
@@ -2178,7 +2178,7 @@ var BN = require('bn.js');
 var HmacDRBG = require('hmac-drbg');
 var utils = require('../utils');
 var curves = require('../curves');
-var rand = require('brorand');
+var rand = require('@martintsan/brorand');
 var assert = utils.assert;
 
 var KeyPair = require('./key');
